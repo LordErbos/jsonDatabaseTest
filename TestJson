@@ -1,5 +1,28 @@
 {
 	"version": "I can now freely edit this x2",
+"patchnotes": {
+"• Completely rebuilt UI (50% Complete, Should be functional though)
+• New settings added
+  - Taming Methods
+  - Editable Corpse Harvesting
+  - Chibi drop settings
+  - More spawning related settings
+  - WIP Framework for on the fly Tek Creature loot drops editing. (Non accesable by anyone but me to test things until publicly enabled, Editable Corpse Harvesting is the first workable interation of this)
+• UI can now be disable for radial menu and can be Admin only viewable.
+• Hopefully fixed some graphic issues with teks rendering.
+• Level settings changed, Tek Muliplier is now Alpha Level Multiplier - Can now have Alpha Teks spawn in at higher levels to give a bigger threat.
+• Unofficial mod support for some mods to function with Tek Creatures.
+•  Console Commands added:
+  - admincheat scriptcommand OpenTCUI - opens the Tek Creatures UI
+  - admincheat scriptcommand TekCreation LootSet {Option}
+      ○Option List
+        ◘ None - Disables all loot except trophies from drops, Rex Arms, Alpha drops and such.
+        ◘ Default - My personal created loot drops for the creatures, subject to change over time.
+        ◘ SaveGame - Custom loot system that can be edited during live game. Current WIP and is broken, will only give Riot Boot BP and Wooden Wall Trophy Mount BP.
+        ◘ Config - Will use the Game.Ini file loot edits created by the server owner/admins. (PC edit only and will require a server restart to take effect).
+  - admincheat scriptcommand TekCreation FactoryReset YES - Deletes the SaveGame data for this mod and recreates new, useful for fix missing data from updates. More possible options in the future.
+  - admincheat scriptcommand TekCreation CanTameAlpha True/False - Might be non-functional at this time, WIP and may break things if set to True."
+}
 	"data": [
 {
 "dino": "Hello one"
