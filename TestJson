@@ -1,7 +1,34 @@
 {
 	"version": "I can now freely edit this x2",
 "patchnotes": 
-"• Completely rebuilt UI (50% Complete, Should be functional though)
+"
+Version 0.0.1
+
+[Tek Creations UI]
+  • Re-rework Tek Creations UI
+  • Accessing  Tek Creatures UI is now done via button in player inventory.
+  • Admin Edit Mode - Button at the top right that has a star when enabled allows to edit admin only settings.
+  • OLD TEK CREATURE SETTINGS PAGE(Being dismantled and improved with it original contents being moved to other locations)
+  • First stages of implimenting a json read system to provide notes and such in the Tek Creations UI's Patch Notes and Issues. (This is an exmaple of that, requires internet connection)
+  • Spawning System can now utilize multiple Teks using the same triggers, if a tek creature passes a spawn check it will be added to a array then pulled at random.   
+  • Spawn Chance for Normal and Alphas being move to Triggers and will now be per trigger editable.
+
+[Tek Creatures]
+   - Added Creatures -
+      • Tek Enforcer (Normal and Alpha)
+      • Tek Scout (Normal and Alpha)
+
+[Bug Fixes]
+  • Clients in different languages couldn't save settings when editing.
+
+[Unofficial Other Mod Support]
+  •Omega Lite (Should now be able to spawn with the Tiers/Variants, before my system prevented them from being affected)
+  • Alpha Everything (Should now spawn with the buff correctly)
+
+-------------------------------------------
+
+Version 0.0.0
+• Completely rebuilt UI (50% Complete, Should be functional though)
 • New settings added
   - Taming Methods
   - Editable Corpse Harvesting
@@ -21,8 +48,7 @@
         ◘ SaveGame - Custom loot system that can be edited during live game. Current WIP and is broken, will only give Riot Boot BP and Wooden Wall Trophy Mount BP.
         ◘ Config - Will use the Game.Ini file loot edits created by the server owner/admins. (PC edit only and will require a server restart to take effect).
   - admincheat scriptcommand TekCreation FactoryReset YES - Deletes the SaveGame data for this mod and recreates new, useful for fix missing data from updates. More possible options in the future.
-  - admincheat scriptcommand TekCreation CanTameAlpha True/False - Might be non-functional at this time, WIP and may break things if set to True.
-More info to come...",
+  - admincheat scriptcommand TekCreation CanTameAlpha True/False - Might be non-functional at this time, WIP and may break things if set to True.",
 	"data": [
 {
 "dino": "Hello one"
