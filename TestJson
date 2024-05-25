@@ -1,8 +1,10 @@
 {
-	"version": "I can now freely edit this x2",
+	"version": "0.0.5",
+"LootSystem": false,
+"HarvestSystem": True,
 "patchnotes": 
 "
-Version 0.0.1
+Version 0.0.5
 
 [Tek Creations UI]
   • Re-rework Tek Creations UI
