@@ -1,3 +1,14 @@
 {
-	"version": "I can now freely edit this x2"
+	"version": "I can now freely edit this x2",
+	"data": [
+{
+"dino": "Hello one"
+},
+{
+"dino": "Rex"
+},
+{
+"dino": "Goober"
+}
+]
 }
