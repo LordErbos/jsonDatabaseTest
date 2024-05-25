@@ -1,6 +1,6 @@
 {
 	"version": "I can now freely edit this x2",
-"patchnotes": {
+"patchnotes": 
 "• Completely rebuilt UI (50% Complete, Should be functional though)
 • New settings added
   - Taming Methods
@@ -21,8 +21,7 @@
         ◘ SaveGame - Custom loot system that can be edited during live game. Current WIP and is broken, will only give Riot Boot BP and Wooden Wall Trophy Mount BP.
         ◘ Config - Will use the Game.Ini file loot edits created by the server owner/admins. (PC edit only and will require a server restart to take effect).
   - admincheat scriptcommand TekCreation FactoryReset YES - Deletes the SaveGame data for this mod and recreates new, useful for fix missing data from updates. More possible options in the future.
-  - admincheat scriptcommand TekCreation CanTameAlpha True/False - Might be non-functional at this time, WIP and may break things if set to True."
-}
+  - admincheat scriptcommand TekCreation CanTameAlpha True/False - Might be non-functional at this time, WIP and may break things if set to True.",
 	"data": [
 {
 "dino": "Hello one"
