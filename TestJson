@@ -65,3 +65,28 @@ Version 0.0.0
 }
 ]
 }
+[TekCreations]
+PatchNotes="Version 0.0.5
+
+[Tek Creations UI]
+  • Re-rework Tek Creations UI
+  • Accessing  Tek Creatures UI is now done via button in player inventory.
+  • Admin Edit Mode - Button at the top right that has a star when enabled allows to edit admin only settings.
+  • OLD TEK CREATURE SETTINGS PAGE(Being dismantled and improved with it original contents being moved to other locations)
+  • First stages of implimenting a json read system to provide notes and such in the Tek Creations UI's Patch Notes and Issues, as well in being able to edit defaults on the fly(Spawning, harvesting, loot). (This is an example of that, requires internet connection)
+  • Spawning System can now utilize multiple Teks using the same triggers, if a tek creature passes a spawn check it will be added to a array then pulled at random.   
+  • Spawn Chance for Normal and Alphas being move to Triggers and will now be per trigger editable.
+  • No longer needs the time out function to prevent UI lock.
+
+[Tek Creatures]
+   - Added Creatures -
+      • Tek Enforcer (Normal and Alpha)
+      • Tek Scout (Normal and Alpha)
+
+[Bug Fixes]
+  • Clients in different languages couldn't save settings when editing.
+  • Grinding Multiplier no longer affects certain weapons and player hand harvesting tek creatures
+
+[Unofficial Other Mod Support]
+  •Omega Lite (Should now be able to spawn with the Tiers/Variants, before my system prevented them from being affected)
+  • Alpha Everything (Should now spawn with the buff correctly)"
